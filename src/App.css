@@ -5,7 +5,7 @@
 @import "@fontsource/roboto/700.css";
 
 @import url('https://fonts.googleapis.com/css2?family=Graduate&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Besley:wght@500&display=swap');
 
 #imageSrc {
   width: 300px;
@@ -30,13 +30,14 @@ h2 {
 
 p {
   text-align: center;
-  font-family: 'Arvo', serif;
-  font-size: 18px;
+  font-family: 'Besley', serif;
+  font-size: 20px;
   margin: none
 }
 
 #synopsis {
   display: block;
+  font-family: 'Besley', serif;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
@@ -48,3 +49,41 @@ p {
     color: whitesmoke;
     text-align: center;
 }
+
+#addSpacing {
+    margin-top: 25px;
+}
+
+.accordion-button {
+    background-color: #ffaed7 !important;
+    color: darkslateblue !important;
+  }
+  
+  .accordion-button:focus {
+    box-shadow: none;
+  }
+  
+  .accordion-button:not(.collapsed) {
+    color: #212529;
+  }
+
+  .accordion-header {
+    border: 5px solid #ff77bc;
+    border-radius: 10px;
+  }
+
+  h4 {
+    border: 2px solid #8d8689c1;
+    border-radius: 20px;
+  }
+
+  #reviewing {
+    background-color: #fcd0f7;
+    box-shadow: 10px 10px 30px rgba(186, 178, 178, 0.703);
+    border-radius: 20px;
+
+  }
+
+  .accBody {
+    background-color: #fcd0f7;
+  }

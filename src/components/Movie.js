@@ -10,16 +10,16 @@ export default class Movie extends React.Component {
                 <Accordion>
                     <Accordion.Item eventKey="0">
                         <Accordion.Header className="accHeader">{this.props.title}</Accordion.Header>
-                        <Accordion.Body className="accBody">
+                        <Accordion.Body className="accBody" id="imgFormatting">
                             <img src={this.props.image}
                                 alt="movie image"
                                 className="center"
                                 id="imageSrc"
                             />
-                            <p>{this.props.director}</p>
-                            <p>{this.props.genre}</p>
-                            <p>{this.props.ageRating}</p>
-                            <p>{this.props.runTime}</p>
+                            <p id="addSpacing"><strong>Director:</strong>{this.props.director}</p>
+                            <p><strong>Genre:</strong>{this.props.genre}</p>
+                            <p><strong>Movie</strong>{this.props.ageRating}</p>
+                            <p><strong>Run Time:</strong>{this.props.runTime}</p>
                             <p className="synopsis">{this.props.description}</p>
                             <ReviewForm />
                         </Accordion.Body>
