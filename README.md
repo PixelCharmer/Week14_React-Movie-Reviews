@@ -1,6 +1,6 @@
 <br/>
 <p align="center">
-  <h3 align="center">2023 Blockbuster Movie Review App</h3>
+  <h2 align="center">2023 Blockbuster Movie Review App</h2>
 
   <p align="center">
     Created a fully responsive single-page React app
