@@ -1,70 +1,106 @@
-# Getting Started with Create React App
+<br/>
+<p align="center">
+  <h3 align="center">2023 Blockbuster Movie Review App</h3>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+  <p align="center">
+    Created a fully responsive single-page React app
+    <br/>
+    <br/>
+    <a href="https://github.com/PixelCharmer/Week14_React-Movie-Reviews"><strong>Explore the docs »</strong></a>
+    <br/>
+    <br/>
+  </p>
+</p>
 
-## Available Scripts
+![Contributors](https://img.shields.io/github/contributors/PixelCharmer/Week14_React-Movie-Reviews?color=dark-green) ![Forks](https://img.shields.io/github/forks/PixelCharmer/Week14_React-Movie-Reviews?style=social) ![Stargazers](https://img.shields.io/github/stars/PixelCharmer/Week14_React-Movie-Reviews?style=social) ![Issues](https://img.shields.io/github/issues/PixelCharmer/Week14_React-Movie-Reviews) 
 
-In the project directory, you can run:
+## Table Of Contents
 
-### `npm start`
+* [About the Project](#about-the-project)
+* [Built With](#built-with)
+* [Getting Started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Authors](#authors)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## About The Project
 
-The page will reload when you make changes.\
+![Screen Shot](https://github.com/PixelCharmer/Week14_React-Movie-Reviews/assets/145899504/1f91936a-e338-43ad-8562-c841d7e505ca
+)
+
+Developed a responsive 2023 Blockbuster Movie App with create-react-app. 
+
+Coding Instructions:
+* Using what you've learned this week, create a page of an application that enables users to vote and leave reviews on movies.
+* All data necessary for this assignment, including Movies and Reviews, can be pulled from an API or you can create the Movies and their Reviews yourself.
+* Your application must include the following components:
+   * MovieList: a container for all the Movie components and their data.  
+   * Movie: a component that represents movie data (i.e. image, synopsis, rating, etc…)
+   * StarRating: a one to five-star rating component that allows users to rate something (movies in this case, but remember that components are reusable, so you could use it elsewhere!)
+   * ReviewList: a container inside of a Movie that houses Review components.
+   * Review: A text review a user can leave on a movie.
+   * ReviewForm: a form at the bottom of a Movie component that allows users to leave reviews. When submitted, the review should be added to the movie. All this data can be stored in an array, no networking or database needed for this assignment.
+
+## Built With
+
+npx create-react-app week14_react_reviews
+
+npm install bootstrap
+
+npm install react-bootstrap
+
+npm install @mui/material @mui/styled-engine-sc styled-components
+
+## Getting Started
+
+To get a local copy up and running follow these simple steps.
+
+### Prerequisites
+
+Ensure you have the latest version of npm
+
+* npm
+
+```sh
+npm –version.
+```
+
+To get the latest version:
+
+```sh
+npm install npm@latest -g
+```
+
+### Installation
+
+1. Clone the repo
+
+```sh
+git clone https://github.com/PixelCharmer/Week14_React-Movie-Reviews.git
+```
+
+2. Install NPM packages
+
+```sh
+npm install
+```
+
+## Usage
+
+### npm start
+Runs the app in the development mode.
+Open http://localhost:3000 to view it in your browser.
+
+The page will reload when you make changes.
 You may also see any lint errors in the console.
 
-### `npm test`
+## Contributing
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+* If you have suggestions for adding or removing projects, feel free to [open an issue](https://github.com/PixelCharmer/Week14_React-Movie-Reviews/issues/new) to discuss it, or directly create a pull request after you edit any file with necessary changes.
 
-### `npm run build`
+## Authors
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+* **Kari Alcoset** - *Promineo Tech Front End Developer Student* - [Kari Alcoset](https://github.com/PixelCharmer) - *Created entire project*
