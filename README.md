@@ -1,6 +1,12 @@
 <br/>
 <p align="center">
-  <h2 align="center">2023 Blockbuster Movie Review App</h2>
+  <a href="https://github.com/PixelCharmer/week13_react-app">
+    <img src="https://github.com/PixelCharmer/week13_react-app/assets/145899504/769237c9-b855-4f03-8b22-707c8c456b54" alt="Logo" width="300" height="300">
+  </a>
+
+<br/>
+<p align="center">
+  <h1 align="center">2023 Blockbuster Movie Review App</h1>
 
   <p align="center">
     Created a fully responsive single-page React app
