@@ -2,6 +2,10 @@ import React from 'react';
 import ReviewList from './ReviewList';
 import StarRating from './StarRating';
 
+// a constructor initializing a state object with 3 objects
+// review will hold the text of the given review
+// reviewArray will store the submitted reviews
+// starRating will store the rating given 
 
 export default class ReviewForm extends React.Component {
     constructor(props) {
@@ -13,6 +17,7 @@ export default class ReviewForm extends React.Component {
         }
     }
 
+    // event handlers that update the super props 
     handleChange = (e) => {
         this.setState({ review: e.target.value });
     }
@@ -39,6 +44,8 @@ export default class ReviewForm extends React.Component {
 
     }
 
+    // Conditional rendering is used to display either a message stating "No Reviews" or the list of reviews based on the length of the reviewArray
+    // followed by a div containing the review form
     render() {
         return (
             <div id="reviewing">
@@ -49,7 +56,6 @@ export default class ReviewForm extends React.Component {
                 ) : (
                     <div>
                         <h4>Reviews</h4>
-                        {/* {maps over the reviews and creates a new ReviewList component for each one} */}
                         {this.state.reviewArray.map((review, index) => (
                             <ReviewList
                                 review={review.review}

@@ -2,7 +2,7 @@ import React from 'react';
 import Movie from './Movie';
 
 
-
+// array of objects making up the componenets 
 
 export default class MovieList extends React.Component {
     render() {
@@ -68,6 +68,9 @@ export default class MovieList extends React.Component {
                 image: "https://s.movieinsider.com/images/p/654026_m1674329978.jpg",
             }
         ]
+
+        // uses to map function to iterate over the movies array
+        // declaring values to create props for each item 
 
         return (
             <div>

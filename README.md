@@ -33,8 +33,7 @@
 
 ## About The Project
 
-![Screen Shot](https://github.com/PixelCharmer/Week14_React-Movie-Reviews/assets/145899504/1f91936a-e338-43ad-8562-c841d7e505ca
-)
+![Screen Shot](https://github.com/PixelCharmer/Week14_React-Movie-Reviews/assets/145899504/30e938c4-21a9-4e64-9fa2-521aec449be0)
 
 Developed a responsive 2023 Blockbuster Movie App with create-react-app. 
 

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import StarRating from './StarRating';
 
 // ReviewList: a container inside of a Movie that houses Review components.
 
